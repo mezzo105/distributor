@@ -112,7 +112,7 @@ public class ContractController
 		
 		{
 	        System.err.println("error while searching for contracts: " + e.getMessage());
-	    }
+	        }
 	        return result;
 	
 	}
